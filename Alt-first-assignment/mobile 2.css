@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'SofiaPro';
+  src: url(/sofiapro/Fonts/sofiapro-light.otf);
+}
+
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: SofiaPro sans-serif;
+  background: #ccfffa;
+  color: black;
+  min-height: 100vh;
+  line-height: 1.5rem;
+}
+
+a {
+  color: #2EC4B6;
+}
+
+.bold {
+  font-weight:bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-wrap {
+  margin-top: 40px;
+}
+
+.container-wrap img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.logo-wrap {
+  margin-left: 21px;
+}
+
+.logo-wrap h1 {
+  font-size:1.70rem;
+  margin-bottom: 10px;
+}
+
+.visible {
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.container-wrap img {
+  margin-top: 30px;
+}
+
+#container .container-wrap .logo-wrap {
+  margin-bottom: 20px; 
+}
+
+.form-wrap {
+  background: white;
+  width:90%;
+  margin: auto;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* min-height: 500px; */
+}
+
+.form-group {
+  /* overflow: hidden; */
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-group input, select {
+  width:100%;
+  padding: 0.85rem;
+  border: solid 1px #F0F0F0;
+}
+
+.footer {
+  display: none;
+}
+
+input::placeholder {
+  color: #737373;
+}
+
+.position {
+  position: relative;
+}
+
+.position img {
+  display: none;
+}
+
+form .btn {
+  border: 0;
+  background: #2EC4B6;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  margin:10px 0;
+}
+
+form .btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+.hide-footer {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
